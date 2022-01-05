@@ -34,9 +34,12 @@ li::before {
   margin-right: 1rem;
 }
 
-.check {
+.right {
   position: absolute;
   right: 0;
+}
+.click:hover{
+  cursor: pointer;
 }
 .check::after {
   content: '>';
@@ -57,6 +60,9 @@ li::before {
 }
 .add-prompt {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 0;
   width: 100vw;
   height: 100vh;
@@ -65,4 +71,7 @@ li::before {
 }
 .toggle-off {
   display: none;
+}
+.add-box {
+  
 }
